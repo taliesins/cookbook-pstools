@@ -22,4 +22,5 @@ windows_zipfile node['pstools']['home'] do
 	source node['pstools']['url']
 	checksum node['pstools']['checksum']
 	action :unzip
+	not_if { ::File.directory?(node['pstools']['home']) }
 end
