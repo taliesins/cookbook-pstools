@@ -18,7 +18,7 @@
 # limitations under the License.
 
 default['pstools']['name'] = 'pstools'
-default['pstools']['filename'] = 'PSTools'
+default['pstools']['filename'] = 'pstools'
 default['pstools']['filenameextension'] = 'zip'
 default['pstools']['url'] = 'https://download.sysinternals.com/files/' + default['pstools']['filename'] + '.' + default['pstools']['filenameextension'] 
 default['pstools']['checksum'] = '4ee22791b452bcb4047f51ad954cf22ca25053d081486723dd6ab7c76e4eda1f'
